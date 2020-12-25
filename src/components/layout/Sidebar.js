@@ -27,12 +27,10 @@ export class Sidebar extends Component {
                             <span className="nav-name" >Messages</span>
                         </a>
                     </div>
-
                     <a href="##" className="nav-link">
                         <box-icon type='solid' name='cookie'></box-icon>
                         <span className="nav-name" >Settings</span>
                     </a>
-
                 </nav>
                 
             </div>
