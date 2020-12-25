@@ -16,6 +16,11 @@
 
   --chart-green: #84E6C1;
   --chart-red: #DA3759; 
+
+  /* ==== z index ======== */
+  --z-fixed:100;
+
+  --nav-width:92px;
 }
 
 /* ====== BASE ======= */
@@ -29,6 +34,7 @@ body {
   padding: 2rem 0 0 6.75rem;
   font-size: var(--normal-fonts-size);
   transition: .5s;
+  background-color: var(--bg-color);
 }
 
 h1 {
@@ -44,4 +50,84 @@ ul {
 a {
   text-decoration: none;
 }
+
+/* ----- SIDE BAR --------- */
+.side-bar {
+  position: fixed;
+  top: 0;
+  left:0;
+  width: var(--nav-width);
+  height: 100vh;
+  background-color: var(--white-color);
+  color: var(--primary-color);
+  padding: 1.5rem 1.5rem 2rem;
+  transition: .5s;
+  z-index: var(--z-fixed);
+}
+
+.side-nav {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.nav-brand {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.nav-toggle{
+  font-size: 1.25rem;
+  padding: .75rem;
+  cursor: pointer;
+}
+
+.nav-logo {
+  color:var(--primary-color);
+  font-weight: 600;
+}
+
+.nav-link {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  align-items: center;
+  column-gap: .75rem;
+  padding: .75rem;
+  color: var(--white-color);
+  border-radius: .5rem;
+  margin-bottom: 1rem;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.nav-link:hover{
+  color: var(--primary-color);
+}
+
+.nav-link:active {
+  color: var(--primary-color);
+}
+
+.nav-icon {
+  font-size: 1.25rem;
+  color: var(--secondary-text-color);
+}
+
+.nav-icon:hover {
+  color: var(--primary-color);
+}
+
+.nav-icon:active {
+  color: var(--primary-color);
+}
+
+.nav-name {
+  font-size: var(--small-font-size);
+}
+
  
