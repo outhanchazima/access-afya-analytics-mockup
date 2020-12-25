@@ -1,5 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
 
 :root {
+  /* fonts */
   font-family: 'Poppins', sans-serif;
+  --normal-fonts-size: 1rem;
+  --small-font-size: .875rem; 
+
+  /* colors */
+  --primary-color: #4E1ED4;
+  --bg-color: #F5F6FA;
+  --white-color: #FFFFFF;
+  --secondary-color: #C3C3C3;
+  --secondary-text-color: #9A9A9C;
+  --primary-text-color: #000000;
+
+  --chart-green: #84E6C1;
+  --chart-red: #DA3759;
 }
+
+/* ====== BASE ======= */
+*,::before, ::after {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding: 2rem 0 0 6.75rem;
+  font-size: var(--normal-fonts-size);
+  transition: .5s;
+}
+
+h1 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+ 
