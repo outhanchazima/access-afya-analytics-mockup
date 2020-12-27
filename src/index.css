@@ -55,6 +55,11 @@ a {
 .text {
   color: var(--secondary-text-color);
 }
+.card {
+  background-color: var(--white-color);
+  border-radius: .2rem;
+  padding: .5rem;
+}
 
 /* ----------HEADER---------------- */
 .header{

@@ -5,9 +5,9 @@ export class Sidebar extends Component {
         return (
             <div className="side-bar">
                 <nav className="side-nav">
-                    <div className="nav-brand" >
-                        <i className="bx bx-folder"></i>
-                        <span className="nav-logo-name">AccessAfya</span>
+                    <div className="nav-brand nav-icon" >
+                        <i className="bx bx-menu"></i>
+                        {/* <span className="nav-logo-name">Afya</span> */}
                     </div>
                     <div className="nav-list">
                         <a href="##" className="nav-link">
