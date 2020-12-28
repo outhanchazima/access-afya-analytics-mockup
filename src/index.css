@@ -248,5 +248,5 @@ p {
 
 .main {
   grid-area: main;
-  background-color: var(--white-color);
+  background-color: var(--bg-color);
 }
