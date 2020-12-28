@@ -79,12 +79,13 @@ a {
   /* margin-right: 96px;
   display: grid;  
   grid-template-columns: auto auto auto auto; */
-
+  
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(265px, 1fr)); /* Where the magic happens */
   grid-auto-rows: 94px;
   grid-gap: 20px;
   margin: 20px;
+  justify-content: center;
 }
 /* ----------HEADER---------------- */
 .header{
@@ -248,5 +249,6 @@ p {
 
 .main {
   grid-area: main;
+  margin-left: 92px;
   background-color: var(--bg-color);
 }
