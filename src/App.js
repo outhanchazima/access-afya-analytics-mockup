@@ -8,7 +8,11 @@ function App() {
     <div>
       <Navbar/>
       <Sidebar/>
-      <Dashboard/>
+      <main className="main">
+        <h1>Dashboard</h1>
+        <Dashboard/>
+      </main>
+      
     </div>
   );
 }

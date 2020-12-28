@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export class Sidebar extends Component {
     render() {
         return (
-            <div className="side-bar">
+            <aside className="side-bar">
                 <nav className="side-nav">
                     <div className="nav-brand nav-icon" >
                         <i className="bx bx-menu"></i>
@@ -32,7 +32,7 @@ export class Sidebar extends Component {
                         <span className="nav-name" >Settings</span>
                     </a>
                 </nav>
-            </div>
+            </aside>
         )
     }
 }
